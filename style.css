@@ -1,0 +1,244 @@
+@media (max-width: 1000px) {
+  .my-resume {
+    flex-direction: column;
+    margin: 20px;
+    row-gap: 50px;
+  }
+
+  .my-work {
+    flex-direction: column;
+    height: 100%;
+    row-gap: 50px;
+  }
+
+  .nav-link {
+    font-size: 13px;
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+
+  .nav-link-footer {
+    font-size: 13px;
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+  
+}
+
+@media (max-width: 400px) {
+  .my-resume > .education {
+    width: 340px;
+    height: 300px;
+    font-size: 13px;
+  }
+
+  .my-resume > .skills {
+    width: 340px;
+    height: 300px;
+    font-size: 13px;
+  }
+
+  .contact-me svg {
+    height: 60px;
+    width: 60px;
+  }
+
+
+}
+
+body {
+  background-color: #FAF3F0;
+  font-family: serif;
+  overflow-x: hidden;
+  margin: 0px;
+  text-decoration: none;
+}
+
+.nav-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 60px;
+  margin-top: 30px;
+}
+
+.nav-item {
+  font-size: 20px;
+  padding-left: 17px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+.nav-link {
+  color: rgb(12, 12, 12);
+  text-decoration: none;
+  letter-spacing: 2px;
+  border-bottom: 2px solid #b9d3b9;
+  cursor: pointer;
+}
+
+.intro {
+  color: rgb(12, 12, 12);
+  text-align: center;
+  padding: 30px;
+}
+
+.info-about {
+  width: 50%;
+  margin: auto;
+  padding-top: 15px;
+  font-size: 2vw;
+}
+
+.intro > img{
+  height: 200px;
+  border-radius: 50%;
+}
+
+.container-resume {
+  display: flex;
+  justify-content: center;
+}
+
+hr {
+  color: #b3a39d;
+  width: 300px;
+}
+
+.my-resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 200px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: rgb(12, 12, 12);
+}
+
+.education {
+  background-color: #b9d3b9;
+  padding: 20px;
+  border-radius: 10px;
+  height: 360px;
+  width: 400px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.skills {
+  background-color: #b9d3b9;
+  padding: 20px;
+  border-radius: 10px;
+  height: 360px;
+  width: 400px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#projects {
+  background-color: #f3e7e2;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+#home {
+  background-color: #f3e7e2;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.my-work {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 50px;
+  text-align: center;
+  margin-bottom: 60px;
+  padding: 60px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 100px;
+  text-decoration: underline;
+  text-decoration-color: #b9d3b9;
+  padding-top: 20px;
+}
+
+.tindog-pic {
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.moveit-pic {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.mondarin-pic {
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.link-button {
+  border: none;
+  background-color: #b9d3b9;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 12px;
+  padding: 5px 10px 5px 10px;
+  margin-top: 5px;
+  width: 150px;
+}
+
+.contact-me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 30px;
+}
+
+.contact-button {
+  border: none;
+  background-color: transparent;
+}
+
+#contact {
+  margin-bottom: 40px;
+  margin-top: 40px;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+#footer {
+  background-color: #f3e7e2;
+  margin-top: 100px;
+  padding-bottom: 30px;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.nav-footer {
+  padding-top: 20px;
+  border-bottom: 2px solid #b9d3b9;
+}
+
+.nav-footer > ul {
+  margin-bottom: 20px;
+}
+
+.nav-link-footer {
+  color: rgb(12, 12, 12);
+  text-decoration: none;
+  letter-spacing: 2px;
+}
