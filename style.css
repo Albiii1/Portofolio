@@ -43,8 +43,8 @@
     width: 60px;
   }
 
-
 }
+
 
 body {
   background-color: #FAF3F0;
@@ -162,11 +162,29 @@ hr {
 
 h1 {
   text-align: center;
-  margin-bottom: 30px;
-  margin-top: 100px;
+  margin-bottom: 40px;
+  margin-top: 80px;
   text-decoration: underline;
   text-decoration-color: #b9d3b9;
   padding-top: 20px;
+}
+
+.tindog-project {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.moveit-project {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.mondarin-project {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 15px;
+  border-radius: 10px;
 }
 
 .tindog-pic {
